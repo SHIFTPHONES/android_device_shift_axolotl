@@ -202,7 +202,9 @@ PRODUCT_PACKAGES += \
     resize2fs_ramdisk \
 
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.crypto.dm_default_key.options_format.version=2 \
     ro.crypto.volume.filenames_mode=aes-256-cts \
+    ro.crypto.volume.metadata.method=dm-default-key \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
