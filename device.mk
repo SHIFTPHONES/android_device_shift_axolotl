@@ -362,6 +362,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     $(LOCAL_PATH)/configs/media/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml \
 
+# Media - Transcoding
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.sys.fuse.transcode_user_control=true \
+    persist.sys.fuse.transcode_enabled=false \
+
 # Net
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor \
