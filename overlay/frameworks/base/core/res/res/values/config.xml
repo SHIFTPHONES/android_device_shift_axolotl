@@ -426,4 +426,23 @@
 <!--
     <string name="config_qualified_networks_service_package">vendor.qti.iwlan</string>
 -->
+
+    <!-- Enable overlay for all location components. -->
+    <bool name="config_enableNetworkLocationOverlay" translatable="false">true</bool>
+    <bool name="config_enableFusedLocationOverlay" translatable="false">true</bool>
+    <bool name="config_enableGeocoderOverlay" translatable="false">true</bool>
+    <bool name="config_enableGeofenceOverlay" translatable="false">true</bool>
+
+    <!-- Sets the package names whose certificates should be used to
+         verify location providers are allowed to be loaded. -->
+    <string-array name="config_locationProviderPackageNames" translatable="false">
+        <!-- The Google provider -->
+        <item>com.google.android.gms</item>
+        <!-- The standard AOSP fused location provider -->
+        <item>com.android.location.fused</item>
+        <!-- The MicroG Unified location provider -->
+        <item>org.microg.nlp</item>
+        <!-- The Qualcomm location provider -->
+        <item>com.qualcomm.location</item>
+    </string-array>
 </resources>
