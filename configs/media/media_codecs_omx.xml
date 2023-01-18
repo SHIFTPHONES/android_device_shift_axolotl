@@ -128,13 +128,7 @@ Only the three quirks included above are recognized at this point:
  |__________|_________________________________________|
 -->
 
-<MediaCodecs>
-    <Include href="media_codecs_google_audio.xml" />
-    <Include href="media_codecs_audio.xml" />
-    <Include href="media_codecs_google_telephony.xml" />
-    <Settings>
-        <Setting name="max-video-encoder-input-buffers" value="11" />
-    </Settings>
+<Included>
     <Encoders>
         <!-- OMX encoders -->
         <MediaCodec name="OMX.qcom.video.encoder.avc" type="video/avc" >
@@ -310,7 +304,7 @@ Only the three quirks included above are recognized at this point:
             <Limit name="blocks-per-second" min="24" max="2073600" />
             <Limit name="bitrate" range="1-40000000" />
             <Limit name="frame-rate" range="1-60" />
-            <Limit name="concurrent-instances" max="6" />
+            <Limit name="concurrent-instances" max="3" />
             <Limit name="performance-point-4096x2304" value="56" />
             <Limit name="performance-point-3840x2160" value="60" />
             <Limit name="performance-point-1920x1080" value="240" />
@@ -347,5 +341,4 @@ Only the three quirks included above are recognized at this point:
             <Limit name="performance-point-1920x1088" value="30" />
         </MediaCodec>
     </Decoders>
-    <Include href="media_codecs_google_video.xml" />
-</MediaCodecs>
+</Included>
