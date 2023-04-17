@@ -342,6 +342,25 @@ PRODUCT_PACKAGES += \
 #    vendor.lineage.livedisplay@2.0-service-sdm \
 
 # Media
+
+# Media - C2
+PRODUCT_PACKAGES += \
+    android.hardware.media.c2@1.0.so.vendor \
+    android.hardware.media.c2@1.1.so.vendor \
+    android.hardware.media.c2@1.2.so.vendor \
+    libavservices_minijail_vendor \
+    libcodec2_hidl@1.0.vendor \
+    libcodec2_hidl_plugin \
+    libcodec2_vndk.vendor \
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.media.codec2=2 \
+    debug.stagefright.c2inputsurface=-1 \
+    debug.stagefright.ccodec=4 \
+    debug.stagefright.omx_default_rank=512 \
+    vendor.media.omx=0 \
+
+# Media - OMX
 PRODUCT_PACKAGES += \
     libavservices_minijail \
     libavservices_minijail.vendor \
@@ -371,6 +390,9 @@ PRODUCT_COPY_FILES += \
 
 # Media - Transcoding
 PRODUCT_VENDOR_PROPERTIES += \
+    debug.media.transcoding.codec_max_operating_rate_720P=480 \
+    debug.media.transcoding.codec_max_operating_rate_1080P=240 \
+    debug.media.transcoding.codec_max_operating_rate_4k=120 \
     persist.sys.fuse.transcode_user_control=true \
     persist.sys.fuse.transcode_enabled=false \
 
