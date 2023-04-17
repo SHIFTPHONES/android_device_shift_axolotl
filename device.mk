@@ -342,6 +342,18 @@ PRODUCT_PACKAGES += \
 #    vendor.lineage.livedisplay@2.0-service-sdm \
 
 # Media
+
+# Media - C2
+PRODUCT_PACKAGES += \
+    android.hardware.media.c2@1.0.so.vendor \
+    android.hardware.media.c2@1.1.so.vendor \
+    android.hardware.media.c2@1.2.so.vendor \
+    libavservices_minijail_vendor \
+    libcodec2_hidl@1.0.vendor \
+    libcodec2_hidl_plugin \
+    libcodec2_vndk.vendor \
+
+# Media - OMX
 PRODUCT_PACKAGES += \
     libavservices_minijail \
     libavservices_minijail.vendor \
