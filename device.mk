@@ -369,6 +369,16 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     $(LOCAL_PATH)/configs/media/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml \
 
+# Media - C2
+PRODUCT_PACKAGES += \
+    android.hardware.media.c2@1.0.so.vendor \
+    android.hardware.media.c2@1.1.so.vendor \
+    android.hardware.media.c2@1.2.so.vendor \
+    libavservices_minijail_vendor \
+    libcodec2_hidl@1.0.vendor \
+    libcodec2_hidl_plugin \
+    libcodec2_vndk.vendor \
+
 # Media - Transcoding
 PRODUCT_VENDOR_PROPERTIES += \
     persist.sys.fuse.transcode_user_control=true \
