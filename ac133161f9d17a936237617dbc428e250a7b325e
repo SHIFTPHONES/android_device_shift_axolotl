@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "748bfbb7_33f61384",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-04-26T17:20:25Z",
+      "side": 1,
+      "message": "Added `(SHIFT)` prefix to commit message so we do not upstream this to lineage yet, until we finetuned the values.",
+      "revId": "ac133161f9d17a936237617dbc428e250a7b325e",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}
