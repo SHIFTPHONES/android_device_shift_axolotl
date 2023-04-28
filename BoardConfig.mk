@@ -161,6 +161,7 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 # Qualcomm BSP
 BOARD_USES_QCOM_HARDWARE := true
+BOARD_USES_QCOM_HARDWARE_MEDIA := false
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
