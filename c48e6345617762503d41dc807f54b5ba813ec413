@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c48f21be_8204b1db",
+        "filename": "gps/core/ContextBase.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-05-31T10:18:24Z",
+      "side": 0,
+      "message": "`XTRA_VERSION_CHECK`",
+      "revId": "c48e6345617762503d41dc807f54b5ba813ec413",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6e7ca4c_cfaa236a",
+        "filename": "gps/core/ContextBase.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-05-31T10:18:24Z",
+      "side": 0,
+      "message": "`XTRA_VERSION_CHECK`",
+      "range": {
+        "startLine": 138,
+        "startChar": 0,
+        "endLine": 139,
+        "endChar": 39
+      },
+      "revId": "c48e6345617762503d41dc807f54b5ba813ec413",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4610cb67_590674dd",
+        "filename": "gps/core/ContextBase.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-05-31T10:18:24Z",
+      "side": 0,
+      "message": "`XTRA_VERSION_CHECK` is gone, config value should be removed.",
+      "range": {
+        "startLine": 52,
+        "startChar": 4,
+        "endLine": 52,
+        "endChar": 38
+      },
+      "revId": "c48e6345617762503d41dc807f54b5ba813ec413",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "402a59a4_46fcaae7",
+        "filename": "gps/core/LocApiBase.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-05-31T10:18:24Z",
+      "side": 0,
+      "message": "`XTRA_VERSION_CHECK`",
+      "range": {
+        "startLine": 62,
+        "startChar": 0,
+        "endLine": 67,
+        "endChar": 2
+      },
+      "revId": "c48e6345617762503d41dc807f54b5ba813ec413",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35a795c3_00194e0a",
+        "filename": "gps/gnss/GnssAdapter.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 838,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-05-31T10:18:24Z",
+      "side": 0,
+      "message": "`XTRA_VERSION_CHECK`",
+      "range": {
+        "startLine": 838,
+        "startChar": 8,
+        "endLine": 838,
+        "endChar": 69
+      },
+      "revId": "c48e6345617762503d41dc807f54b5ba813ec413",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}
