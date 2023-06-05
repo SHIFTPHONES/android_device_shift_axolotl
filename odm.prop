@@ -5,4 +5,4 @@
 ro.vendor.qti.va_odm.support=1
 
 # Media - Performance Class
-ro.odm.build.media_performance_class=30
+ro.odm.build.media_performance_class=29
