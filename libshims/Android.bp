@@ -10,3 +10,17 @@ cc_library {
     compile_multilib: "64",
     vendor: true,
 }
+
+cc_library {
+    name: "libQSEEComAPI",
+    vendor: true,
+    compile_multilib: "both",
+    srcs: [
+        "libQSEEComAPI.c",
+        // Add more source files if needed
+    ],
+    shared_libs: [
+        "libc",
+        // Add any other shared libraries that your module depends on
+    ],
+}
