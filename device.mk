@@ -519,3 +519,6 @@ PRODUCT_PACKAGES += \
     WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf \
+
+PRODUCT_PACKAGES += \
+    libQSEEComAPI \
