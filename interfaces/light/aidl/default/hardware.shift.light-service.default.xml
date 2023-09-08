@@ -4,9 +4,4 @@
         <version>2</version>
         <fqname>ILights/default</fqname>
     </hal>
-    <hal format="aidl">
-        <name>hardware.shift.light</name>
-        <version>1</version>
-        <fqname>ILights/default</fqname>
-    </hal>
 </manifest>
