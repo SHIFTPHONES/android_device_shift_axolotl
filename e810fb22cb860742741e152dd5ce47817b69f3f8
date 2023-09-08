@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e6019c1_d3860b13",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-09-08T06:37:29Z",
+      "side": 1,
+      "message": "This will stop copying the init.rc, which sets up lights permission, right?",
+      "revId": "e810fb22cb860742741e152dd5ce47817b69f3f8",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}
