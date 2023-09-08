@@ -345,7 +345,9 @@ PRODUCT_PACKAGES += \
 
 # Light HAL
 PRODUCT_PACKAGES += \
-    hardware.shift.light-service.default \
+    android.hardware.light@2.0-impl \
+    android.hardware.light@2.0-service \
+    lights.sdm845
 
 # Lineage Health
 PRODUCT_PACKAGES += \
