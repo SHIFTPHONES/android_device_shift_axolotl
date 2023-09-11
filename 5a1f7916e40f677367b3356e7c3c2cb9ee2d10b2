@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ecb2c7d5_d13e33b3",
+        "filename": "vintf/manifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-09-11T06:30:41Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be 1.3?",
+      "range": {
+        "startLine": 141,
+        "startChar": 17,
+        "endLine": 141,
+        "endChar": 20
+      },
+      "revId": "5a1f7916e40f677367b3356e7c3c2cb9ee2d10b2",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}
