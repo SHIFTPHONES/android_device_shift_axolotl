@@ -22,6 +22,30 @@
       },
       "revId": "5a1f7916e40f677367b3356e7c3c2cb9ee2d10b2",
       "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a18713b_1bd9851a",
+        "filename": "vintf/manifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1000049
+      },
+      "writtenOn": "2023-09-11T10:06:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ecb2c7d5_d13e33b3",
+      "range": {
+        "startLine": 141,
+        "startChar": 17,
+        "endLine": 141,
+        "endChar": 20
+      },
+      "revId": "5a1f7916e40f677367b3356e7c3c2cb9ee2d10b2",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
     }
   ]
 }
