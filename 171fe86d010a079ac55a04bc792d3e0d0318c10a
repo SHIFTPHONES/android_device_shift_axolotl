@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f71ae81c_3dee4959",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000049
+      },
+      "writtenOn": "2023-09-20T03:28:38Z",
+      "side": 1,
+      "message": "@amartinz@shiftphones.com could you help validate this on 3-4 devices to get a consistent range?",
+      "revId": "171fe86d010a079ac55a04bc792d3e0d0318c10a",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "38b744c5_674fe344",
+        "filename": "configs/media/media_codecs_performance.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1000049
+      },
+      "writtenOn": "2023-09-20T03:28:38Z",
+      "side": 1,
+      "message": "This seems to be odd.",
+      "range": {
+        "startLine": 111,
+        "startChar": 64,
+        "endLine": 111,
+        "endChar": 67
+      },
+      "revId": "171fe86d010a079ac55a04bc792d3e0d0318c10a",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7160858_b8512b5e",
+        "filename": "configs/media/media_codecs_performance.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1000049
+      },
+      "writtenOn": "2023-09-20T03:28:38Z",
+      "side": 1,
+      "message": "This one too.",
+      "range": {
+        "startLine": 118,
+        "startChar": 65,
+        "endLine": 118,
+        "endChar": 74
+      },
+      "revId": "171fe86d010a079ac55a04bc792d3e0d0318c10a",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}
