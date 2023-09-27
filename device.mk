@@ -507,6 +507,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
+    libbnconstructormap_shim \
     libcomparetf2_shim \
     libgui_vendor \
 

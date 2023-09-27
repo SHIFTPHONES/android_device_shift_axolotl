@@ -62,6 +62,9 @@ function blob_fixup() {
         vendor/lib64/hw/camera.qcom.so)
             grep -q "libcomparetf2_shim.so" "${2}" || "${PATCHELF}" --add-needed "libcomparetf2_shim.so" "${2}"
             ;;
+        vendor/lib/hw/fingerprint.sdm845.so|vendor/lib64/hw/fingerprint.sdm845.so)
+            grep -q "libbnconstructormap_shim.so" "${2}" || "${PATCHELF}" --add-needed "libbnconstructormap_shim.so" "${2}"
+            ;;
     esac
 }
 
