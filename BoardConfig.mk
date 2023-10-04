@@ -162,13 +162,22 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 LOC_HIDL_VERSION := 3.0
 
 # Graphics
-TARGET_USES_GRALLOC1 := true
 TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
+ifeq ($(TARGET_KERNEL_VERSION),4.19)
+    TARGET_USES_GRALLOC4 := true
+    TARGET_USES_QTI_MAPPER_2_0 := true
+    TARGET_USES_QTI_MAPPER_EXTENSIONS_1_1 := true
+else
+    TARGET_USES_GRALLOC1 := true
+endif
 
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/vintf/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/vintf/compatibility_matrix.xml
+ifneq ($(TARGET_KERNEL_VERSION),4.19)
+    DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/vintf/manifest_display_4.9.xml
+endif
 
 # Light
 TARGET_PROVIDES_LIBLIGHT := true
