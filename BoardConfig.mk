@@ -81,6 +81,10 @@ BOARD_KERNEL_CMDLINE += service_locator.enable=1
 BOARD_KERNEL_CMDLINE += androidboot.memcg=1 cgroup.memory=nokmem
 BOARD_KERNEL_CMDLINE += androidboot.usbcontroller=a600000.dwc3 swiotlb=2048
 BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/1d84000.ufshc
+# Set to permissive during 4.19 kernel bringup
+ifeq ($(TARGET_KERNEL_VERSION),4.19)
+    BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+endif
 
 # (BOARD_KERNEL_PAGESIZE * 32)
 BOARD_FLASH_BLOCK_SIZE := 131072
