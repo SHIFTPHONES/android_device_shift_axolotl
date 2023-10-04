@@ -41,7 +41,7 @@ TARGET_SCREEN_DENSITY := 420
 TARGET_NO_KERNEL := false
 TARGET_NO_KERNEL_OVERRIDE := false
 
-TARGET_KERNEL_VERSION := 4.9
+TARGET_KERNEL_VERSION := 4.19
 ifeq ($(TARGET_KERNEL_VERSION),4.19)
     TARGET_KERNEL_SOURCE := kernel/shift/sdm845-4.19
     TARGET_KERNEL_CONFIG := vendor/sdm845-perf_defconfig vendor/shift/axolotl.config vendor/debugfs.config
@@ -49,6 +49,8 @@ ifeq ($(TARGET_KERNEL_VERSION),4.19)
     ifneq ($(TARGET_BUILD_VARIANT),user)
         TARGET_KERNEL_CONFIG += vendor/shift/debug.config
     endif
+
+    TARGET_KERNEL_ADDITIONAL_FLAGS := "V=2"
 else
     TARGET_KERNEL_SOURCE := kernel/shift/sdm845
     ifeq ($(TARGET_BUILD_VARIANT),eng)
