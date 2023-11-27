@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f4ba5d1_1872663c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-11-27T11:04:09Z",
+      "side": 1,
+      "message": "When regenerating the ats userdata.img (`WITH_AUTOMATION_USERDATA\u003dtrue m userdataimage`) settings now show 128 GB instead of \u003c 20 GB.",
+      "revId": "f5153cf5f0447a3b11c8f30060dd43c8fdb35e89",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}
