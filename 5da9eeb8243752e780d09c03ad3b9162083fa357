@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "314ce2b7_749042cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-11-27T08:32:36Z",
+      "side": 1,
+      "message": "Will do with the next build.\n\nShould this go in for now?",
+      "revId": "5da9eeb8243752e780d09c03ad3b9162083fa357",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}
