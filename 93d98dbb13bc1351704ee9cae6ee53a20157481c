@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10addd3f_62633c64",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-12-13T09:02:07Z",
+      "side": 1,
+      "message": "This also needs a HAL change to fix the failing test.\n\nChecking, if this can be done without modifying the HAL.",
+      "revId": "93d98dbb13bc1351704ee9cae6ee53a20157481c",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}
