@@ -16,6 +16,24 @@
       "message": "Shouldn\u0027t this be in product instead? As it\u0027s from QSSI in the CLO project.",
       "revId": "b4d8647439723ea7ecbf6c5ac567a91a1ea301cb",
       "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "074a0eef_7acf6e3a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-12-18T18:21:58Z",
+      "side": 1,
+      "message": "I thought given that this is hardware specific (mixer paths need routes for mmap, etc) it should be in vendor?\n\nIf you say it\u0027s fine in product (or system_ext?) I\u0027ll move it :)",
+      "parentUuid": "33d25a5a_ab6fc3fa",
+      "revId": "b4d8647439723ea7ecbf6c5ac567a91a1ea301cb",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
     }
   ]
 }
