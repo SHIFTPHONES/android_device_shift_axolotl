@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33d25a5a_ab6fc3fa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000049
+      },
+      "writtenOn": "2023-12-18T16:57:27Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be in product instead? As it\u0027s from QSSI in the CLO project.",
+      "revId": "b4d8647439723ea7ecbf6c5ac567a91a1ea301cb",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}
