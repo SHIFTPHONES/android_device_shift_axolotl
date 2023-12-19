@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d392d4b6_2232d1f2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-12-19T09:01:33Z",
+      "side": 1,
+      "message": "Moved it to product to be inline with QSSI.",
+      "revId": "e0e1aaa5e272313ab0a98dd8bee15e20c6a51b36",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}
