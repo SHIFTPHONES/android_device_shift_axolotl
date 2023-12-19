@@ -46,7 +46,7 @@ TARGET_KERNEL_CONFIG := vendor/shift/axolotl_defconfig
 ifeq ($(TARGET_BUILD_VARIANT),eng)
     TARGET_KERNEL_CONFIG += vendor/shift/debug.config
 else
-    TARGET_KERNEL_CONFIG += vendor/debugfs.config
+#    TARGET_KERNEL_CONFIG += vendor/debugfs.config
 endif
 
 TARGET_KERNEL_LLVM_BINUTILS := false
