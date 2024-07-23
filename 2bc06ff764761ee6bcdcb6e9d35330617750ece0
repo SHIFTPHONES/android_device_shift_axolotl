@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53dea9c0_acec53ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-07-23T06:17:53Z",
+      "side": 1,
+      "message": "Should be revisited later, because SIM promised these features are supported.",
+      "revId": "2bc06ff764761ee6bcdcb6e9d35330617750ece0",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}
