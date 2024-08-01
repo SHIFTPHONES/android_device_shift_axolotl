@@ -234,12 +234,14 @@
       <value>469.3</value>
   </array>
 
-  <!-- Total power drawn by the system when CPUs (and the SoC) are in system suspend state. -->
-  <item name="cpu.idle">9.85</item>
-  <!-- Additional power used when CPUs are in scheduling idle state (kernel idle loop); system is not in system suspend state. -->
-  <item name="cpu.awake">4.87</item>
   <!-- Power consumption when CPU is in power collapse mode. -->
-  <item name="cpu.suspend">0.1</item>
+  <item name="cpu.suspend">5.6</item>
+  <!-- Power consumption when CPU is awake (when a wake lock is held).
+       This should be zero on devices that can go into full CPU power collapse even when a wake lock is held.
+       Otherwise, this is the power consumption in addition to POWER_CPU_SUSPEND due to a wake lock being held but with no CPU activity. -->
+  <item name="cpu.idle">5</item>
+  <!-- Power consumption when CPU is running, excluding power consumed by clusters and cores. -->
+  <item name="cpu.active">21.89</item>
 
   <!-- Power consumption when DDR is being used. -->
   <array name="memory.bandwidths">
