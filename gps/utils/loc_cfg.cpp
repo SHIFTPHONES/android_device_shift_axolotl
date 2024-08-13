@@ -91,7 +91,10 @@ const char LOC_PATH_XTWIFI_CONF[] = LOC_PATH_XTWIFI_CONF_STR;
 const char LOC_PATH_QUIPC_CONF[] = LOC_PATH_QUIPC_CONF_STR;
 
 bool isXtraDaemonEnabled() {
-    bool enabled = property_get_bool("persist.sys.xtra-daemon.enabled", true);
+    char brandName[PROPERTY_VALUE_MAX];
+    property_get("ro.product.system.brand", brandName, "Android");
+    bool isGsi = strcmp(brandName, "Android") == 0;
+    bool enabled = property_get_bool("persist.sys.xtra-daemon.enabled", isGsi);
     LOC_LOGe("xtra-daemon enabled: %d\n", enabled);
     return enabled;
 }
