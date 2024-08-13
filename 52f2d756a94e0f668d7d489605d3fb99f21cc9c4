@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34935830_1b5e4be5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-08-13T11:44:06Z",
+      "side": 1,
+      "message": "We want xtra-daemon enabled by default for stock already, turning this from opt-in into opt-out.",
+      "revId": "52f2d756a94e0f668d7d489605d3fb99f21cc9c4",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}
