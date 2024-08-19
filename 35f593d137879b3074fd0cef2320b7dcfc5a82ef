@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26e2df56_046c74f5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000049
+      },
+      "writtenOn": "2024-08-19T13:24:14Z",
+      "side": 1,
+      "message": "You sure this is the case with A13 as well? I was of the impression that this is only with 24Q1/2.",
+      "revId": "35f593d137879b3074fd0cef2320b7dcfc5a82ef",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}
