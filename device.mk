@@ -207,7 +207,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.crypto.allow_encrypt_override=true \
-    ro.crypto.dm_default_key.options_format.version=2 \
+    ro.crypto.dm_default_key.options_format.version=1 \
     ro.crypto.metadata_init_delete_all_keys.enabled=false \
     ro.crypto.volume.filenames_mode=aes-256-cts \
     ro.crypto.volume.metadata.method=dm-default-key \
@@ -345,6 +345,7 @@ PRODUCT_PACKAGES += \
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0.vendor \
+    android.hardware.keymaster@4.1.vendor \
 
 # Light HAL
 PRODUCT_PACKAGES += \
