@@ -190,6 +190,9 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey \
 
 # e-SIM
+PRODUCT_PACKAGES += \
+    EuiccOverlay \
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/euicc/default-permissions_com.google.android.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions_com.google.android.euicc.xml \
     $(LOCAL_PATH)/configs/euicc/privapp_allowlist_com.google.android.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp_allowlist_com.google.android.euicc.xml
