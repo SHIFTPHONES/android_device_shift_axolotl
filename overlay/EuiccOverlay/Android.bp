@@ -1,0 +1,7 @@
+// EuiccOverlay
+
+android_app {
+    name: "EuiccOverlay",
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+}

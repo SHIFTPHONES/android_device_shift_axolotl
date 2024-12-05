@@ -190,6 +190,9 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey \
 
 # e-SIM
+PRODUCT_PACKAGES += \
+    EuiccOverlay \
+
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.telephony.euicc.xml \
 
