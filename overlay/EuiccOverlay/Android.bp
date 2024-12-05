@@ -1,0 +1,12 @@
+// EuiccOverlay
+
+android_app {
+    name: "EuiccOverlay",
+
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+
+    sdk_version: "current",
+    product_specific: true,
+    certificate: "platform",
+}
