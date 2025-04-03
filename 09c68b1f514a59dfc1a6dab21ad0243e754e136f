@@ -16,6 +16,24 @@
       "message": "This needs revalidation with VTS once. So, unless required I would avoid this on 5.x at least.",
       "revId": "09c68b1f514a59dfc1a6dab21ad0243e754e136f",
       "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1d67ef2_c8e1e731",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-04-03T16:31:17Z",
+      "side": 1,
+      "message": "\u003e This needs revalidation with VTS once. So, unless required I would avoid this on 5.x at least.\n\nWe may require it, as we need to reconfigure some audio routings as well.",
+      "parentUuid": "4acc8157_4b14a461",
+      "revId": "09c68b1f514a59dfc1a6dab21ad0243e754e136f",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
     }
   ]
 }
